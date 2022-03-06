@@ -50,9 +50,6 @@ export default function Navbar(props) {
                   <Link  to='/about' className="bg-zinc-100 text-black hover:bg-zinc-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</Link>
                 </div>
                 <div>
-                  <Link to='/skills' className="bg-zinc-100 text-black hover:bg-zinc-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Skills</Link>
-                </div>
-                <div>
                 <Link className="bg-zinc-100 text-black hover:bg-zinc-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium" to='/portfolio'>Portfolio</Link>
                 </div>
                 <div>

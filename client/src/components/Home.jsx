@@ -44,13 +44,15 @@ export default function Home() {
           <br/>
           <br/>
 
-          {/* <div className='bg-white mx-3 p-4 mb-12' >
+          <div className='bg-white mx-3 p-4 mb-12' >
             <div className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-              <h1 className="about-title block text-yellow-700 xl:inline">A LITTLE MORE ABOUT MYSELF:</h1>
-              <br/>
-              <p></p>
+              <h1 className="skills-title block xl:inline">SKILLS:</h1>
             </div>
-          </div> */}
+            <div>
+              <h1>Porgamming Languages</h1>
+              
+            </div>
+          </div>
         </div>
       )
     }
