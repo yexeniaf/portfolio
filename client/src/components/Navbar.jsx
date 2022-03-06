@@ -27,10 +27,10 @@ export default function Navbar(props) {
                 
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
+                      
                     <Link className="bg-zinc-100 text-black hover:bg-zinc-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium" to="/"><h1>Home</h1></Link>
-                    <Link className="bg-zinc-100 text-black hover:bg-zinc-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium" to='/items'>Skills</Link>
-                    <Link className="bg-zinc-100 text-black hover:bg-zinc-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium" to='/items'>Portfolio</Link>
-                    <Link className="bg-zinc-100 text-black hover:bg-zinc-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium" to='/items'>Contact Me</Link>
+                    <Link className="bg-zinc-100 text-black hover:bg-zinc-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium" to='/portfolio'>Portfolio</Link>
+                    <Link className="bg-zinc-100 text-black hover:bg-zinc-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium" to='/contact'>Contact Me</Link>
                   </div>
                 </div>
               </div>
@@ -39,16 +39,19 @@ export default function Navbar(props) {
           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
                 <div>
+                    <h1> Yexenia Flores</h1>
+                </div>
+                <div>
                   <Link  to='/' className="bg-zinc-100 text-black hover:bg-zinc-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</Link>
                 </div>
                 <div>
-                  <Link to='/items' className="bg-zinc-100 text-black hover:bg-zinc-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Skills</Link>
+                  <Link to='/skills' className="bg-zinc-100 text-black hover:bg-zinc-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Skills</Link>
                 </div>
                 <div>
-                <Link className="bg-zinc-100 text-black hover:bg-zinc-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium" to='/items'>Portfolio</Link>
+                <Link className="bg-zinc-100 text-black hover:bg-zinc-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium" to='/portfolio'>Portfolio</Link>
                 </div>
                 <div>
-                <Link className="bg-zinc-100 text-black hover:bg-zinc-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium" to='/items'>Contact Me</Link>
+                <Link className="bg-zinc-100 text-black hover:bg-zinc-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium" to='/contact'>Contact Me</Link>
                 </div>
         
             </div>
