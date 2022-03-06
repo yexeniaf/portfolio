@@ -29,8 +29,10 @@ export default function Navbar(props) {
                   <div className="flex space-x-4">
                       
                     <Link className="bg-zinc-100 text-black hover:bg-zinc-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium" to="/"><h1>Home</h1></Link>
+                    <Link className="bg-zinc-100 text-black hover:bg-zinc-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium" to="/about"><h1>About</h1></Link>
                     <Link className="bg-zinc-100 text-black hover:bg-zinc-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium" to='/portfolio'>Portfolio</Link>
                     <Link className="bg-zinc-100 text-black hover:bg-zinc-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium" to='/contact'>Contact Me</Link>
+
                   </div>
                 </div>
               </div>
@@ -43,6 +45,9 @@ export default function Navbar(props) {
                 </div>
                 <div>
                   <Link  to='/' className="bg-zinc-100 text-black hover:bg-zinc-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</Link>
+                </div>
+                <div>
+                  <Link  to='/about' className="bg-zinc-100 text-black hover:bg-zinc-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</Link>
                 </div>
                 <div>
                   <Link to='/skills' className="bg-zinc-100 text-black hover:bg-zinc-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Skills</Link>

@@ -13,3 +13,8 @@
 .last-name {
   color: #CB7666;
 }
+
+.about-title {
+  text-shadow:  -2px 0 rgb(129, 112, 81), 0 2px rgb(129, 112, 81), 2px 0 rgb(129, 112, 81), 0 -2px rgb(129, 112, 81);
+
+}

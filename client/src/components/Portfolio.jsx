@@ -2,6 +2,9 @@ import React from 'react'
 import {Link} from 'react-router-dom';
 
 export default function Portfolio() {
+  const handleClick = () => {
+    window.open();
+  };
   return (
     <div>
       <h1>My Portfolio</h1>
