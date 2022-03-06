@@ -15,6 +15,17 @@
 }
 
 .about-title {
-  text-shadow:  -2px 0 rgb(129, 112, 81), 0 2px rgb(129, 112, 81), 2px 0 rgb(129, 112, 81), 0 -2px rgb(129, 112, 81);
+  color: #F1ECE4;
+  text-shadow:  -2px 0 #020101, 0 2px #0c0908, 2px 0 #EAB996, 0 -2px #EAB996;
+
+}
+
+.logo-images {
+  border-color: #A93D49;
+}
+
+.about-title {
+  color: #A93D49;
+  text-shadow:  -2px 0 #A93D49, 0 2px #A93D49, 2px 0 #EAB996, 0 -2px #EAB996;
 
 }

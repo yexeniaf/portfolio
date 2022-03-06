@@ -1,6 +1,17 @@
 import React from 'react';
 import homepagePic from "../images/homepagePic.JPG"
-import headshot from '../images/headshot.png'
+import reactLogo from '../images/reactLogo.png';
+import htmlLogo from '../images/htmlLogo.png';
+import cssLogo from '../images/cssLogo.png';
+import javascriptLogo from '../images/javascriptLogo.png';
+import rubyLogo from '../images/rubyLogo.png';
+import railsLogo from '../images/railsLogo.png';
+import expressLogo from '../images/expressLogo.png';
+import postLogo from '../images/postLogo.jpg';
+import mongoLogo from '../images/mongoLogo.png';
+import bootstrapLogo from '../images/bootstrapLogo.png';
+import tailwindLogo from '../images/tailwindLogo.png';
+
 
 export default function Home() {
     return (
@@ -15,7 +26,7 @@ export default function Home() {
                   preserveAspectRatio="none"
                   aria-hidden="true"
                 >
-                  <polygon points="0,0 0,0 0,100 0,100" />
+                  <polygon points="50,0 100,0 50,100 0,100" />
                 </svg>
                 <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                   <div className="sm:text-center lg:text-left">
@@ -45,12 +56,53 @@ export default function Home() {
           <br/>
 
           <div className='bg-white mx-3 p-4 mb-12' >
-            <div className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-              <h1 className="skills-title block xl:inline">SKILLS:</h1>
-            </div>
+          <div className="text-xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-6xl mx-4">
+            <h1 className="items-title about-title block text-white text-border-2 xl:inline"> SKILLS:</h1>
+          </div>
             <div>
               <h1>Porgamming Languages</h1>
               
+              <div className="grid grid-cols-7 gap-3">
+                <div>
+                  <img className="logo-images border-4 " src={reactLogo}/>
+                </div>  
+                <div>
+                  <img className="logo-images border-4 " src={htmlLogo}/>
+                </div>  
+                <div>
+                  <img className="logo-images border-4 " src={cssLogo}/>
+                </div>  
+                <div>
+                  <img className="logo-images border-4 " src={javascriptLogo}/>
+                </div>  
+                <div>
+                  <img className="logo-images border-4 " src={rubyLogo}/>
+                </div>  
+                <div>
+                  <img className="logo-images border-4 " src={railsLogo}/>
+                </div>  
+                <div>
+                  <img className="logo-images border-4 " src={expressLogo}/>
+                </div>    
+              </div>
+             <br/>
+             <h1> Databases & Frameworks</h1>
+             <div className="grid grid-cols-8 gap-4">
+                <div>
+                  <img className="logo-images border-4 " src={postLogo}/>
+                </div>  
+                <div>
+                  <img className="logo-images border-4 " src={mongoLogo}/>
+                </div>  
+                <div>
+                  <img className="logo-images border-4 " src={bootstrapLogo}/>
+                </div>  
+                <div>
+                  <img className="logo-images border-4 " src={tailwindLogo}/>
+                </div>      
+              </div>
+
+
             </div>
           </div>
         </div>
