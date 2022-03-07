@@ -4,7 +4,10 @@ export default function Contact() {
   return (
     <div>
         <div>
-        <h1>Lets Chat!</h1>
+        <div className="text-xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-6xl mx-10">
+            <h1 className="me-title about-title block text-white text-border-2 xl:inline"> LETS CONNECT:</h1>
+          </div>
+          <br/>
         <p> Whether it be a question about my work or just to grab coffee and chat, I am always happy to connect with you!</p>
         </div>
         <div className='handles'>
