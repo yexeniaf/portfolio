@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import mail from '../gifs/mail.gif';
 import octocat from '../gifs/octocat.gif'
 import linkedin from '../gifs/linkedin.gif'
@@ -24,13 +25,13 @@ export default function Contact() {
             <div >
             <img src={octocat} alt="github gif"/>
             </div>
-                <p>https://github.com/yexeniaf</p>
+                <Link to="https://github.com/yexeniaf" > View my Code!</Link>
             </div>
             <div className='gifs'>
             <div >
             <img src={linkedin} alt="linkedin gif"/>
             </div>
-                <p>https://www.linkedin.com/in/yexenia-flores/</p>
+                <Link to="https://www.linkedin.com/in/yexenia-flores/"> Lets Connect!</Link>
             </div>
         </div>
         
