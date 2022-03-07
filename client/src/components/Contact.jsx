@@ -25,13 +25,18 @@ export default function Contact() {
             <div >
             <img src={octocat} alt="github gif"/>
             </div>
-                <Link to="https://github.com/yexeniaf" > View my Code!</Link>
+                <a href="https://github.com/yexeniaf" target="_blank"> View my Code!</a>
             </div>
             <div className='gifs'>
             <div >
             <img src={linkedin} alt="linkedin gif"/>
             </div>
-                <Link to="https://www.linkedin.com/in/yexenia-flores/"> Lets Connect!</Link>
+                <button > 
+                
+                <a href="https://www.linkedin.com/in/yexenia-flores/" target="_blank">
+                Lets Connect!
+                </a>
+                </button>
             </div>
         </div>
         
