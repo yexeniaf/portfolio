@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import mail from '../gifs/mail.gif';
+import octocat from '../gifs/octocat.gif'
+import linkedin from '../gifs/linkedin.gif'
 
 export default function Contact() {
   return (
@@ -8,20 +11,26 @@ export default function Contact() {
             <h1 className="me-title about-title block text-white text-border-2 xl:inline"> LETS CONNECT:</h1>
           </div>
           <br/>
-        <p> Whether it be a question about my work or just to grab coffee and chat, I am always happy to connect with you!</p>
+        <p className='mb-5'> Whether it be a question about my work or just to grab coffee and chat, I am always happy to connect with you!</p>
         </div>
-        <div className='handles'>
-            <div>
-                <h1>Email</h1>
-                <p>email address here</p>
+        <div className="grid grid-cols-3 gap-3 m-4">
+            <div className='gifs'>
+                <div >
+                <img src={mail} alt="email gif"/>
+                </div>
+                <p>yexeniaf@yahoo.com</p>
             </div>
-            <div>
-                <h1>Github</h1>
-                <p>email address here</p>
+            <div className='gifs'>
+            <div >
+            <img src={octocat} alt="github gif"/>
             </div>
-            <div>
-                <h1>LinkedIn</h1>
-                <p>email address here</p>
+                <p>https://github.com/yexeniaf</p>
+            </div>
+            <div className='gifs'>
+            <div >
+            <img src={linkedin} alt="linkedin gif"/>
+            </div>
+                <p>https://www.linkedin.com/in/yexenia-flores/</p>
             </div>
         </div>
         
