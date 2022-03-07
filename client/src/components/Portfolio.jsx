@@ -11,7 +11,7 @@ export default function Portfolio() {
     window.open();
   };
   return (
-    <div>
+    <div className='mb-5'>
       <div className="text-xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-6xl mx-10">
             <h1 className="me-title about-title block text-white text-border-2 xl:inline"> PORTFOLIO:</h1>
           </div>
