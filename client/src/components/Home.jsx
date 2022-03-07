@@ -59,8 +59,9 @@ export default function Home() {
           <div className="text-xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-6xl mx-4">
             <h1 className="items-title about-title block text-white text-border-2 xl:inline"> SKILLS:</h1>
           </div>
+          <br/>
             <div>
-              <h1>Porgamming Languages</h1>
+              <h1 className='mb-1'>Porgamming Languages</h1>
               
               <div className="grid grid-cols-7 gap-3">
                 <div>
@@ -86,7 +87,7 @@ export default function Home() {
                 </div>    
               </div>
              <br/>
-             <h1> Databases & Frameworks</h1>
+             <h1 className='mb-1'> Databases & Frameworks</h1>
              <div className="grid grid-cols-8 gap-4">
                 <div>
                   <img className="logo-images border-4 " src={postLogo}/>

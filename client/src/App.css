@@ -22,9 +22,11 @@
 
 .logo-images {
   border-color: #A93D49;
+  width: 60%;
+
 }
 
-.about-title {
+.me-title {
   color: #A93D49;
   text-shadow:  -2px 0 #A93D49, 0 2px #A93D49, 2px 0 #EAB996, 0 -2px #EAB996;
 
