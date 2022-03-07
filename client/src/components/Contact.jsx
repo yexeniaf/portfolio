@@ -4,7 +4,9 @@ import mail from '../gifs/mail.gif';
 import octocat from '../gifs/octocat.gif'
 import linkedin from '../gifs/linkedin.gif'
 
+
 export default function Contact() {
+    
   return (
     <div>
         <div>
@@ -19,7 +21,7 @@ export default function Contact() {
                 <div >
                 <img src={mail} alt="email gif"/>
                 </div>
-                <p>yexeniaf@yahoo.com</p>
+                <button onClick={() => window.location = 'mailto:yexeniaf@yahoo.com'}>Email Me</button>
             </div>
             <div className='gifs'>
             <div >
