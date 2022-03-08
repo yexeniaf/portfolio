@@ -18,15 +18,15 @@ export default function Contact() {
         </div>
         <div className="grid grid-cols-3 gap-3 m-4">
             <div className='gifs'>
-                <div >
+                <div className='resume-gif'>
                 <img src={mail} alt="email gif"/>
                 </div>
                 <button onClick={() => window.location = 'mailto:yexeniaf@yahoo.com'}>Email Me</button>
             </div>
             <div className='gifs'>
-            <div >
-            <img src={octocat} alt="github gif"/>
-            </div>
+                <div >
+                    <img src={octocat} alt="github gif"/>
+                </div>
                 <a href="https://github.com/yexeniaf" target="_blank"> View my Code!</a>
             </div>
             <div className='gifs'>

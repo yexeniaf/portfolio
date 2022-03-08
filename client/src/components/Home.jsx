@@ -11,6 +11,7 @@ import postLogo from '../images/postLogo.jpg';
 import mongoLogo from '../images/mongoLogo.png';
 import bootstrapLogo from '../images/bootstrapLogo.png';
 import tailwindLogo from '../images/tailwindLogo.png';
+import resume from '../gifs/resume.gif'
 
 
 export default function Home() {
@@ -54,6 +55,17 @@ export default function Home() {
           </div>
           <br/>
           <br/>
+          <div>
+            <div className="text-xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-6xl mx-4">
+              <h1 className="items-title about-title block text-white text-border-2 xl:inline"> Resume:</h1>
+            </div>
+            <div className='resume-info'>
+                <div className='resume-gif'>
+                    <img src={resume} alt="resume gif"/>
+                </div>
+                <a href="https://github.com/yexeniaf" target="_blank"> View my Resume!</a>
+            </div>
+          </div>
 
           <div className='bg-white mx-3 p-4 mb-12' >
           <div className="text-xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-6xl mx-4">
