@@ -14,7 +14,7 @@ export default function About() {
           </div>
           <p className="mb-8 leading-relaxed">
           I am a first-generation Mexican-American developer based in New York. Recently graduated from the Software Engineer Immersive program at General Assembly, 
-          I am eager to take on my first role
+          I am eager to take on my first role!
           </p>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
