@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import homepagePic from "../images/homepagePic.JPG"
 import reactLogo from '../images/reactLogo.png';
 import htmlLogo from '../images/htmlLogo.png';
@@ -37,6 +38,10 @@ export default function Home() {
                       <span className="last-name block xl:inline">Flores</span>
                     </h1>
                     <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                    Welcome and thank for visiting my portfolio!
+                    </p>
+                    <br/>
+                    <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                     Pronouns: She/Her
                     <br/>
                     Nickname: Yeni
@@ -55,15 +60,24 @@ export default function Home() {
           </div>
           <br/>
           <br/>
-          <div>
+          <div className='resume'>
             <div className="text-xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-6xl mx-4">
               <h1 className="items-title about-title block text-white text-border-2 xl:inline"> Resume:</h1>
             </div>
+            <br/>
+            <p>
+              “Choose a job you love, and you will never have to work a day in your life." —Confucius
+            </p>
+            <a href="https://github.com/yexeniaf" target="_blank"> 
+            
+            </a>
             <div className='resume-info'>
                 <div className='resume-gif'>
-                    <img src={resume} alt="resume gif"/>
+              <a href="https://docs.google.com/document/d/1E7IxIu0kZskPEZjjhwj5Rxfv-LG_qkGE5ZyHhbJXzBY/edit?usp=sharing" target={"_blank"}>
+                  <img src={resume} alt="resume gif" />
+                  </a>
+                   
                 </div>
-                <a href="https://github.com/yexeniaf" target="_blank"> View my Resume!</a>
             </div>
           </div>
 
@@ -73,9 +87,7 @@ export default function Home() {
           </div>
           <br/>
             <div>
-              <h1 className='mb-1'>Porgamming Languages</h1>
-              
-              <div className="grid grid-cols-7 gap-3">
+              <div className="grid grid-cols-4 gap-2">
                 <div>
                   <img className="logo-images border-4 " src={reactLogo}/>
                 </div>  
@@ -97,10 +109,6 @@ export default function Home() {
                 <div>
                   <img className="logo-images border-4 " src={expressLogo}/>
                 </div>    
-              </div>
-             <br/>
-             <h1 className='mb-1'> Databases & Frameworks</h1>
-             <div className="grid grid-cols-8 gap-4">
                 <div>
                   <img className="logo-images border-4 " src={postLogo}/>
                 </div>  

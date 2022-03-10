@@ -22,7 +22,7 @@
 
 .logo-images {
   border-color: #CB7666;
-  width: 60%;
+  width: 50%;
 
 }
 
@@ -35,4 +35,11 @@
 .resume-info {
   height: 10%;
   width: 30%;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
