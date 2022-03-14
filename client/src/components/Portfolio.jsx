@@ -16,7 +16,7 @@ export default function Portfolio() {
             <h1 className="me-title about-title block text-white text-border-2 xl:inline"> PORTFOLIO:</h1>
           </div>
       <br/>
-      <div className="grid grid-cols-2 gap-3 m-5">
+      <div className="t-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-2 xl:gap-x-8">
       <div className='project'>
         
         <a href="https://yexeniaf.github.io/Tappas-and-Drinks/" target="_blank"> Tappas & Drinks</a>
