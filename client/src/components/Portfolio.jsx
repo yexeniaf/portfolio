@@ -2,8 +2,9 @@ import React from 'react'
 import {Link} from 'react-router-dom';
 import api from '../projects/api.png';
 import game from '../projects/game.png';
-import td from '../projects/td.png';
+
 import revogue from '../projects/revogue.png';
+import Tapas from './Tapas';
 
 
 export default function Portfolio() {
@@ -17,16 +18,7 @@ export default function Portfolio() {
           </div>
       <br/>
       <div className="t-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-2 xl:gap-x-8">
-      <div className='project'>
-        
-        <a href="https://yexeniaf.github.io/Tappas-and-Drinks/" target="_blank"> Tappas & Drinks</a>
-        <div className='info mt-2'>
-          <p>Tappas and Drinks was the first app I have ever created and was an inspiration from my experience of not knowing what 
-            to snack on! The app is designed to help users search for their desired drink, and it will generate a random snack to make. 
-          </p>
-          <img src={td} alt="screenshot of Tappas and Drink app"/>
-        </div>
-      </div>
+      <Tapas />
       
       <div className='project'>
         

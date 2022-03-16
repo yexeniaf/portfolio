@@ -16,7 +16,7 @@ export default function Contact() {
           <br/>
         <p className='mb-5'> Whether it be a question about my work or just to grab coffee and chat, I am always happy to connect with you!</p>
         </div>
-        <div className="grid grid-cols-3 gap-3 m-4">
+        <div className="t-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
             <div className='gifs'>
                 <div className='resume-gif'>
                 <img src={mail} alt="email gif"/>
