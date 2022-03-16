@@ -13,7 +13,7 @@ export default function Portfolio() {
   return (
     <div className='mb-5'>
       <div className="text-xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-6xl mx-10 mt-7">
-            <h1 className="me-title about-title block text-white text-border-2 xl:inline "> PORTFOLIO:</h1>
+            <h1 className="items-title about-title block text-white text-border-2 xl:inline "> PORTFOLIO:</h1>
           </div>
       <br/>
       <div className=" t-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-2 xl:gap-x-8">

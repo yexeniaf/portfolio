@@ -10,8 +10,8 @@ export default function Contact() {
   return (
     <div>
         <div>
-        <div className="text-xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-6xl mx-10">
-            <h1 className="me-title about-title block text-white text-border-2 xl:inline"> LETS CONNECT:</h1>
+        <div className="text-xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-6xl mx-10 mt-4">
+            <h1 className="items-title about-title block text-white text-border-2 xl:inline "> LETS CONNECT:</h1>
           </div>
           <br/>
         <p className='mb-5'> Whether it be a question about my work or just to grab coffee and chat, I am always happy to connect with you!</p>
