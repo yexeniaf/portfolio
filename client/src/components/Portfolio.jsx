@@ -1,9 +1,7 @@
 import React from 'react'
-import {Link} from 'react-router-dom';
-import api from '../projects/api.png';
 import game from '../projects/game.png';
-
 import revogue from '../projects/revogue.png';
+import Api from './Api';
 import Tapas from './Tapas';
 
 
@@ -17,20 +15,11 @@ export default function Portfolio() {
             <h1 className="me-title about-title block text-white text-border-2 xl:inline"> PORTFOLIO:</h1>
           </div>
       <br/>
-      <div className="t-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-2 xl:gap-x-8">
+      <div className=" t-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-2 xl:gap-x-8">
       <Tapas />
+      <Api />
       
-      <div className='project'>
-        
-        <a href="https://ecstatic-leavitt-83dc15.netlify.app/" target="_blank"> API-N-Dex</a>
-        <div className='info mt-2'>
-          <p>This app was an inspiration from the first app I built. With multiple APIs, students can find it complicated and overwhelming
-             to find ones that are free to use. API-N-Dex was created to be an app where users can post free APIs they find for others to
-              use.
-          </p>
-          <img src={api} alt='screenshot of API-N-Dex app' />
-        </div>
-      </div>
+    
       
       <div className='project'>
         

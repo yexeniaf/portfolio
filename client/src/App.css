@@ -55,3 +55,7 @@
 .buttons {
   justify-content: space-evenly; 
 }
+
+.button {
+  background-color: #A93D49;
+}
