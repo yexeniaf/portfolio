@@ -21,22 +21,30 @@ export default function Contact() {
                 <div className='resume-gif'>
                 <img src={mail} alt="email gif"/>
                 </div>
-                <button onClick={() => window.location = 'mailto:yexeniaf@yahoo.com'}>Email Me</button>
+                <button 
+                    className="sobutton inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white hover:bg-rose-400"
+                    onClick={() => window.location = 'mailto:yexeniaf@yahoo.com'}
+                >
+                    Email Me
+                </button>
             </div>
             <div className='gifs'>
                 <div >
                     <img src={octocat} alt="github gif"/>
                 </div>
-                <a href="https://github.com/yexeniaf" target="_blank"> View my Code!</a>
+                <button className="sobutton inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white hover:bg-rose-400">
+                    <a href="https://github.com/yexeniaf" target="_blank">
+                        Visit My Github
+                    </a>
+                </button>
             </div>
             <div className='gifs'>
             <div >
             <img src={linkedin} alt="linkedin gif"/>
             </div>
-                <button > 
-                
+                <button className="sobutton inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white hover:bg-rose-400" > 
                 <a href="https://www.linkedin.com/in/yexenia-flores/" target="_blank">
-                Lets Connect!
+                Lets Connect
                 </a>
                 </button>
             </div>

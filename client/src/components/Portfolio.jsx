@@ -21,12 +21,6 @@ export default function Portfolio() {
       <Api />
       <Game />
       <Revogue />
-      
-    
-      
-      
-      
-    
       </div>
     </div>
   )
