@@ -53,18 +53,17 @@ export default function Home() {
             <div className="text-xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-6xl mx-4">
               <h1 className="items-title about-title block text-white text-border-2 xl:inline"> Resume:</h1>
             </div>
-            <br/>
-            <p>
-              “Choose a job you love, and you will never have to work a day in your life." —Confucius
-            </p>
-            <a href="https://github.com/yexeniaf" target="_blank"> 
-            
-            </a>
+
             <div className='resume-info'>
                 <div className='resume-gif'>
-              <a href="https://docs.google.com/document/d/1E7IxIu0kZskPEZjjhwj5Rxfv-LG_qkGE5ZyHhbJXzBY/edit?usp=sharing" target={"_blank"}>
+              
                   <img src={resume} alt="resume gif" />
-                  </a>
+                 
+                  <button className="sobutton inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white hover:bg-rose-400 mb-3" > 
+                    <a href="https://docs.google.com/document/d/1E7IxIu0kZskPEZjjhwj5Rxfv-LG_qkGE5ZyHhbJXzBY/edit?usp=sharing" target="_blank">
+                        Click To View My Resume
+                    </a>
+                </button>
                    
                 </div>
             </div>

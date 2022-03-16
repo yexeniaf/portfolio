@@ -43,9 +43,9 @@ export default function Contact() {
             <img src={linkedin} alt="linkedin gif"/>
             </div>
                 <button className="sobutton inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white hover:bg-rose-400" > 
-                <a href="https://www.linkedin.com/in/yexenia-flores/" target="_blank">
-                Lets Connect
-                </a>
+                    <a href="https://www.linkedin.com/in/yexenia-flores/" target="_blank">
+                        Lets Connect
+                    </a>
                 </button>
             </div>
         </div>
